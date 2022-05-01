@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lo_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/order"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/lo_salary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <TextView
+        android:id="@+id/lo_salary"
+        android:layout_width="99dp"
+        android:layout_height="51dp"
+        android:text="@string/salary"
+        android:textAppearance="@style/TextAppearance.Material3.LabelMedium"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lo_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

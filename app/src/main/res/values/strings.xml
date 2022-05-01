@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OrdersList</string>
+    <string name="add">Add Order</string>
+    <string name="remove">Remove Order</string>
+    <string name="clear">Clear list</string>
+    <string name="salary">Salary</string>
+    <string name="order">Order</string>
+    <string name="address">Address</string>
+</resources>
